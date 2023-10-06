@@ -14,11 +14,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('hihi'),
-        ),
-        body: const Text('Flutter'),
+      home:
+          // StartingPage()
+          const Scaffold(
+        body: Center(child: Text('Flutter')),
       ),
     );
   }
