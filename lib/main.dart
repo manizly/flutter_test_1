@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/pages/01_starting_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,11 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:
-          // StartingPage()
-          const Scaffold(
-        body: Center(child: Text('Flutter')),
-      ),
+      home: const StartingPage(),
     );
   }
 }
